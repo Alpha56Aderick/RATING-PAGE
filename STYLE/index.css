@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 *{
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +11,7 @@ body{
     padding: 2.5rem;
     min-height: 100vh;
     margin: 1.25rem;
+    font-family: overpass, sans-serif;
     
 }
 .ratings-card{
