@@ -25,8 +25,12 @@ body{
     align-items: center;
     width: 100%;
     padding: 1.25rem;
-    gap: 2rem;
+    gap:1rem;
     max-width: 360px;
+}
+p{
+  font-size: 0.8rem;
+  color: hsl(213, 8%, 42%); ;
 }
 .star-icon{
     padding: 0.5rem;
@@ -55,6 +59,8 @@ body{
     padding: 1rem 1.25rem;
     border-radius: 100%;
     border: none;
+    color:hsl(0, 100%, 100%);
+    font-weight: 500;
 }
 .rate:hover{
     background-color: hsl(25, 97%, 53%);
@@ -118,7 +124,4 @@ body{
     align-items: center;
     color:hsl(217, 12%, 63%);
     text-align: center;
-}
-@media (screen) {
-    
 }
