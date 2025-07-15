@@ -6,27 +6,27 @@
 }
 body{
     background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 95vh;
     padding: 0.5rem;
-    min-height: 100vh;
     margin: 1.25rem;
-    font-family: overpass, sans-serif;
     
 }
 /* RATE US CARD */
 .rate-us-card{
     border-radius: 20px;
     background-color: hsl(214, 22%, 13%);
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     width: 100%;
     padding: 1.5rem;
     gap:1rem;
-    max-width: 340px;
+    max-width: 400px;
 }
 p{
   font-size: 0.8rem;
@@ -85,15 +85,14 @@ p{
 .thanks-card{
     border-radius: 20px;
     background-color: hsl(214, 22%, 13%);
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 1rem;
     gap:1rem;
-    max-width: 370px;
-    margin-bottom: 0rem;
+    max-width: 360px;
     
 }
 .thanks-card-heading{
@@ -113,6 +112,10 @@ p{
     margin-bottom:0.25rem;
     
 }
+.rate-us-text{
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+}
 
 .ratings-comment{
     background-color: hsl(213, 19%, 18%);
@@ -129,5 +132,7 @@ p{
     justify-content: center;
     align-items: center;
     color:hsl(217, 12%, 63%);
+    font-size: 1rem;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
