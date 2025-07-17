@@ -67,7 +67,8 @@ p{
     background-color: hsl(25, 97%, 53%);
 }
 .rate.selected{
-    background-color: hsl(272, 36%, 10%);
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(213, 19%, 18%);
 }
 .submit-button{
     padding: 0.75rem 7.5rem;
